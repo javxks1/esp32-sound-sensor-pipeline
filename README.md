@@ -4,17 +4,17 @@ This project takes data from the ESP32 device and processes it into a dashboard 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 1. Project Structure
-esp32-sound-pipeline
-analytics > Streamlit app
-ingestion > (scripts for ingestión)
-data > (CSV files o raw data)
-.venv
+esp32-sound-pipeline  
+analytics > Streamlit app  
+ingestion > (scripts for ingestión)  
+data > (CSV files o raw data)  
+.venv  
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 2. Requisites
-Windows 11/10
-Python 3.12
+Windows 11/10  
+Python 3.12   
 ESP32 with Sound Sensor
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -23,15 +23,15 @@ ESP32 with Sound Sensor
 
 In PowerShell write the following:
 
-py -3.12 -m venv .venv
+py -3.12 -m venv .venv  
 Create the environment in the same folder as your project. 
 
 Note: Creating the enviroment in the same folder is very important since all dependencies will install here. If not, open powershell as an administrator, type cd "File path for downloaded project".
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## 4. Activate it  
 
-## 4. Activate it
 If you are in the folder path in PowerShell type the following: 
 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
