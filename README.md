@@ -54,8 +54,11 @@ Data can come in different ways for this project, the main one CSV files and by 
 ## 8. Dashboard
 streamlit run analytics/streamlit_app.py
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## 9. Errors might appear
 ImportError: Erase the numpy folder or re-create environment. 
 Fatal error while lanching: Re-create environment.
 Blocked scripts: Use Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
+![Live Dashboard](esp32-sound-pipeline/live-dashboard.png)
