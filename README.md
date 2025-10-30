@@ -3,12 +3,12 @@ This Project takes data from the ESP32 device and processes it into a dashboard 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1. Structure
-esp32-sound-pipeline/
-├── analytics/ (Streamlit)
-├── ingestion/ (scripts de ingestión)
-├── data/ (CSV archives o raw data)
-└── .venv/
+1. Project Structure
+esp32-sound-pipeline
+analytics > Streamlit app
+ingestion > (scripts for ingestión)
+data > (CSV files o raw data)
+.venv
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
