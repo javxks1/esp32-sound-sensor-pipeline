@@ -61,4 +61,4 @@ ImportError: Erase the numpy folder or re-create environment.
 Fatal error while lanching: Re-create environment.
 Blocked scripts: Use Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-![Live Dashboard](esp32-sound-pipeline/live-dashboard.png)
+![Live Dashboard](esp32-sound-sensor-pipeline/live-dashboard.png)
