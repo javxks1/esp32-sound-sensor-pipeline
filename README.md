@@ -1,2 +1,58 @@
-# esp32-sound-temp-pipeline
-This project collects sound data from an ESP32 microcontroller and processes it through a Python Streamlit analytics dashboard.
+ESP32 Sound Data Pipeline (Streamlit Dashboard)
+This Project takes data from the ESP32 device and processes it into a dashboard using Streamlit. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Structure
+esp32-sound-pipeline/
+├── analytics/ (Streamlit)
+├── ingestion/ (scripts de ingestión)
+├── data/ (CSV archives o raw data)
+└── .venv/
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Requisites
+Windows 11/10
+Python 3.12
+ESP32 with Sound Sensor
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Virtual enviroment
+
+In PowerShell write the following:
+
+py -3.12 -m venv .venv
+Create the environment in the same folder as your project. 
+
+Note: Creating the enviroment in the same folder is very important since all dependencies will install here. If not, open powershell as an administrator, type cd "File path for downloaded project".
+
+4. Activate it
+If you are in the folder path in PowerShell type the following: 
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. Dependencies
+   
+pip install --upgrade pip
+pip install streamlit pandas numpy
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7. Data Source (Sound)
+Data can come in different ways for this project, the main one CSV files and by MQTT serial. A data 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8. Dashboard
+streamlit run analytics/streamlit_app.py
+
+10. Errors you can encounter
+ImportError: Erase the numpy folder or re-create environment. 
+Fatal error while lanching: Re-create environment.
+Blocked scripts: Use Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
