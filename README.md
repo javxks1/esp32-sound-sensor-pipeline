@@ -1,5 +1,5 @@
 # ESP32 Sound Data Pipeline (Streamlit Dashboard)
-This Project takes data from the ESP32 device and processes it into a dashboard using Streamlit. 
+This project takes data from the ESP32 device and processes it into a dashboard using Streamlit. 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
